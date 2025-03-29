@@ -551,18 +551,14 @@ vdjdb.filter_mhc()
 vdjdb.standardize_genes()
 vdjdb.assign_cdrs()
 vdjdb.run_stitchr()
-vdjdb.format_for_competition(
-    output_path="dat/HUMAN_I/vdjdb_pos_human_I_2chain.csv"
-)
+vdjdb.format_for_competition(output_path="dat/HUMAN_I/vdjdb_pos_human_I.csv")
 
 vdjdb = VDJdbDataset(species="human", mhc_class="II")
 vdjdb.filter_mhc()
 vdjdb.standardize_genes()
 vdjdb.assign_cdrs()
 vdjdb.run_stitchr()
-vdjdb.format_for_competition(
-    output_path="dat/HUMAN_II/vdjdb_pos_human_II_2chain.csv"
-)
+vdjdb.format_for_competition(output_path="dat/HUMAN_II/vdjdb_pos_human_II.csv")
 
 create_leaders_constants("mouse")
 
@@ -571,14 +567,10 @@ vdjdb.filter_mhc()
 vdjdb.standardize_genes()
 vdjdb.assign_cdrs()
 vdjdb.run_stitchr()
-vdjdb.format_for_competition(
-    output_path="dat/MOUSE_I/vdjdb_pos_mouse_I_2chain.csv"
-)
+vdjdb.format_for_competition(output_path="dat/MOUSE_I/vdjdb_pos_mouse_I.csv")
 vdjdb = VDJdbDataset(species="mouse", mhc_class="II")
 vdjdb.filter_mhc()
 vdjdb.standardize_genes()
 vdjdb.assign_cdrs()
 vdjdb.run_stitchr()
-vdjdb.format_for_competition(
-    output_path="dat/MOUSE_II/vdjdb_pos_mouse_II_2chain.csv"
-)
+vdjdb.format_for_competition(output_path="dat/MOUSE_II/vdjdb_pos_mouse_II.csv")
