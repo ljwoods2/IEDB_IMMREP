@@ -1,0 +1,11 @@
+pandas
+biopython
+numpy
+tidytcells
+requests
+pyarrow
+openpyxl
+stitchr
+IMGTgeneDL
+airr
+wget
